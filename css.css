@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    background-color: #FAF9F6;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper>* {
+    flex: 1 100%;
+
+}
+
+.header {
+    /* border: black 3px solid; */
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.uheader {
+    height: 100px;
+    /* border: rgb(0, 0, 0) 3px solid; */
+    position: relative;
+    display: flex;
+    top: 0;
+    place-content: center;
+    align-items: center;
+}
+
+.uheader .logo {
+    /* border: black 3px solid; */
+    display: grid;
+
+}
+
+.lheader {
+    border-top: #AB0000 3px solid;
+    border-bottom: #AB0000 3px solid;
+    box-shadow: 10px black;
+    align-items: center;
+
+}
+
+.menu {
+    /* border: black solid; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+li {
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-weight: bold;
+    /* border: black 3px solid; */
+}
+
+a {
+    all: unset;
+}
+
+a:hover {
+    color: #770000;
+
+}
+
+main {
+    /* border: black 3px solid; */
+    position: relative;
+    /* padding:  277px 90px 0 90px; */
+
+}
+
+.intro {
+    /* border: black 3px solid; */
+    position: relative;
+    color: #C20000;
+    font-family: 'Instrument Serif';
+    width: 100%;
+    height: 180vh;
+    font-size: larger;
+
+}
+
+.intro>* {
+    padding: 237px 90px 0 90px;
+}
+
+.arev {
+    position: absolute;
+    top: 20vh;
+    right: 0
+}
+
+.brand {
+    position: absolute;
+    top: 60vh;
+    left: 0
+}
+
+.with {
+    position: absolute;
+    right: 120px;
+    top: 80vh;
+}
+
+.washandst {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    top: 0vh;
+    /* border: rgb(182, 32, 32) 3px solid; */
+}
+
+.stand {
+    position: relative;
+    width: 385px;
+    height: 193px;
+    /* border: green 3px solid */
+}
+
+.mouthwash {
+    position: absolute;
+    bottom: 180px;
+}
+
+.quote {
+    position: absolute;
+    border: black 3px solid;
+    bottom: 126px;
+
+}
+
+.newproduct {
+    position: absolute;
+    border: black 3px solid;
+    left: 0;
+
+}
+
+.drgxmouth {
+    position: absolute;
+    right: 0;
+    width: 333px;
+    height: 250.16px;
+    height: auto;
+    border: black 3px solid;
+}
+
+.footer {
+    border: black 3px solid;
+    height: 120px;
+    background-color: darkred;
+}
+
+#about {
+    font-family: "Inter";
+    background: url(backgroundwhatis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 347px;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #270000;
+    border-radius: 0px;
+    text-align: left;
+
+}
+
+#about>h2 {
+    padding: 0 50px 0 50px;
+    font-weight: 900;
+    text-align: left;
+    white-space: pre;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+h2>strong {
+    color: red;
+}
+
+#about>.p {
+    position: absolute;
+    width: 100%;
+    height: 349px;
+    white-space: pre;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+p>span {
+    font-size: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: right;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+span>strong {
+    color: red;
+}
+
+.aboutus {
+    position: relative;
+    background: url(aboutusbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 266px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px 0px 20px 0px;
+    border-style: solid;
+    border-color: #170000;
+    border-radius: 0px;
+}
+
+.aboutus>h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    text-transform: lowercase;
+    text-shadow:
+        -10px -1px 0 #939393,
+        1px -1px 0 #939393,
+        -1px 1px 0 #939393,
+        1px 1px 0 #939393;
+    /* Четыре тени создают эффект контура */
+}
+
+.description {
+    position: relative;
+    width: 100%;
+    height: 469px;
+    background: url(descriptionbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    display: flex;
+    color:white;
+    padding: 0 171px;
+    
+}
+.description > p {
+    font-family: "Inter";
+    font-size: 38.48;
+    font-weight: 400;
+    font-style: italic;
+
+}
+/* image */
+
+position: absolute;
+width: 1440px;
+height: 469px;
+left: 0px;
+top: 2932px;
+
+background: url(86408aff00ad7d1d0fc5c64b2513f4a2.jpg);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+/* ABOUT US */
+
+
+
+
+
+/* Dragonbreath X Mouthwash is a revolutionary new dental hygiene product that sets a new standard in freshness and oral health. This groundbreaking formula is specifically designed to kill bacteria and eliminate germs at their source, providing a deep clean without leaving behind any unpleasant aftertaste. Whether you're looking for all-day freshness or a powerful defense against bad breath, Dragonbreath X has you covered with its advanced, yet gentle, solution. */
+
+/* position: absolute;
+width: 866px;
+height: 349px;
+right: 71px;
+bottom: 1723px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-align: justify;
+
+color: #FFFFFF; */
+
+
+
+/* Dragonbreath X Mouthwash is a revolutionary new dental hygiene product that sets a new standard in freshness and oral health. This groundbreaking formula is specifically designed to kill bacteria and eliminate germs at their source, providing a deep clean without leaving behind any unpleasant aftertaste. Whether you're looking for all-day freshness or a powerful defense against bad breath, Dragonbreath X has you covered with its advanced, yet gentle, solution. */
+
+
+
+/* What is Dragonbreath X Mouthwash? */
+/* 
+position: absolute;
+width: 297px;
+height: 204px;
+left: 103px;
+top: 2391px; */
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 1440px;
+height: 347px;
+left: calc(50% - 1440px/2);
+top: 2319px;
+
+background: url(651e2278a7b3733365df3af6f26eba2f (1)_enhanced_cleanup.png);
+border-width: 0px 0px 21px 21px;
+border-style: solid;
+border-color: #270000;
+border-radius: 0px;
+
+
+/* @media (max-width:768) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-menu {
+        width: 100%;
+        flex-direction: column;
+        border-top: 1px solid #dee2e6;
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+    .nav-menu li {
+        margin: 5px 0;
+    } */
+}
+
+/* #about {
+    border: pink 3px solid;
+    fon
+} */
+/* .newproduct {
+    position: relative;
+    height: 100vh;
+    width: 100%
+}
+
+.images {
+    border: black 3px solid;
+    position: flex;
+    height:50vh;
+}
+
+.polygon {
+    
+    border: black 3px solid;
+    position: relative;
+    width:40%;
+    height:auto;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+
+}
+
+.mouthwash {
+    border: black 3px solid;
+    position: absolute;
+    width:60%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+
+}
+
+#about {
+    border: black 3px solid;
+} */
+
+
+
+/* .image-container {
+    background-color: rgb(74, 55, 55);
+    position:relative;
+    width:max-content;
+    height: auto;
+    display:grid;
+    
+}
+img.polygon {
+    width:385;
+    height:193;
+}
+img.mouthwash {
+    position:absolute;
+    width: 408;
+    height:403; */
+
+}
